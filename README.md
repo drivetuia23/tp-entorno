@@ -1,7 +1,7 @@
-# Proyecto: 
+# Nombre del Proyecto: 
   ## Trabajo Práctico Entorno Programación Grupo 4 - TUIA 2023
 
-# Sistema: 
+# Nombre del Sistema: 
   ## tp-entorno
 
 # Entorno: 
@@ -11,7 +11,7 @@
 *  VERSION_ID="22.04"
 *  VERSION="22.04.2 LTS (Jammy Jellyfish)"
 
-# Cuentas:
+# Autores:
 El PT-Entorno TUIA23 está organizado, en relación a los users, de la siguiente forma:
 ### Cuenta principal del TP: drivetuia23@gmail.com
 ### Cuentas de desarrolladores: 
@@ -22,6 +22,10 @@ El PT-Entorno TUIA23 está organizado, en relación a los users, de la siguiente
 | Claudio Saldias | claudio.saldias@gmail.com |
 
 # Documentación
-## Descripción
-## Estructura del código
-## Funciones
+## Descripción:
+## Estado:
+## Instalación: (instrucciones)
+## Requisitos: (dependencias o bibliotecas)
+## Licencia: Restrigida a colaboradores/revisores
+## Estructura del código (esquema/arbol)
+## Uso: (man)

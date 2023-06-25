@@ -1,17 +1,11 @@
 <p align="center"><img src="https://github.com/drivetuia23/tp-entorno/blob/main/FCEIA-logo.png" width="400"></a></p>
 
 # Nombre del Proyecto: 
-  ## Trabajo Práctico Entorno Programación Grupo 4 - TUIA 2023
+  ## _Trabajo Práctico Entorno Programación Grupo 4 - TUIA 2023_
 
-# Nombre del Sistema: 
-  ## tp-entorno
-
-# Entorno: 
-  ## ubuntu 
-*  PRETTY_NAME="Ubuntu 22.04.2 LTS"
-*  VERSION="22.04.2 LTS (Jammy Jellyfish)"
-
-# Autores:
+  ## Nombre del Sistema: 
+  ### tp-entorno
+  ## Autores:
 El TP-Entorno TUIA23 está organizado, en relación a los users, de la siguiente forma:
 ### Cuenta principal del TP: drivetuia23@gmail.com
 ### Cuentas de desarrolladores: 
@@ -20,6 +14,11 @@ El TP-Entorno TUIA23 está organizado, en relación a los users, de la siguiente
 | Mariana Bettoni | bettoni.bat@gmail.com |
 | Javier Centurión | feceiaestudiante@gmail.com |
 | Claudio Saldias | claudio.saldias@gmail.com |
+
+# Entorno: 
+  ## ubuntu 
+*  PRETTY_NAME="Ubuntu 22.04.2 LTS"
+*  VERSION="22.04.2 LTS (Jammy Jellyfish)"
 
 # Documentación
 ## Descripción:

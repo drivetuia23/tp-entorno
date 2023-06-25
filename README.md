@@ -10,7 +10,7 @@
 *  VERSION="22.04.2 LTS (Jammy Jellyfish)"
 
 # Autores:
-El PT-Entorno TUIA23 está organizado, en relación a los users, de la siguiente forma:
+El TP-Entorno TUIA23 está organizado, en relación a los users, de la siguiente forma:
 ### Cuenta principal del TP: drivetuia23@gmail.com
 ### Cuentas de desarrolladores: 
 | Nombre  | Mail |

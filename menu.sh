@@ -22,11 +22,11 @@ while [ $salir -ne 1 ]; do
   case $opcion in
 
     1)
-      ./generar.sh
+      ./generar.sh 10
       ;;
 
     2)
-      ./descomprimir.sh  
+      ./descomprimir.sh imagenes.tar.gz verificacion.txt 
       ;;
 
     3)

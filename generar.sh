@@ -20,13 +20,13 @@ directorio="img"
 # mkdir -p "$directorio"
 
 # Nombres de archivo aleatorios
-nombres=("John" "Jane" "Alice" "Bob" "Eve")  # acá entra la list con los 300 nombres
+nombres=("John" "Jane" "Mari" "Claudio" "javi" "soraya" "Natalia" "Alice" "Bob" "Eve" "Ana" "paula" "juan")  # acá entra la list con los 300 nombres
 
 # Descargar imágenes desde el servicio web
 for ((i=1; i<=cantidad_imagenes; i++))
 do
   # Nombre aleatorio de archivo
-  nombre_archivo="${nombres[$RANDOM % ${#nombres[@]}]}_$i"
+  nombre_archivo="${nombres[$RANDOM % ${#nombres[@]}]}"
   
   # Descargar imagen desde https://thispersondoesnotexist.com/
   wget -q -O "$directorio/$nombre_archivo" "https://thispersondoesnotexist.com/"

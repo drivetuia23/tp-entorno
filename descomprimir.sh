@@ -35,7 +35,17 @@ echo "Verificación exitosa. Comenzando la descompresión..."
 
 # Lógica de descompresión aquí
 # Por ejemplo, para descomprimir un archivo tar.gz:
-# tar -xzf "$compressed_images_file"
+tar -xvf "$compressed_images_file"
 
 echo "Descompresión completada con éxito."
+
+
+
+
+
+
+
+
+
+
 

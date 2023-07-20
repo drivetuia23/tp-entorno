@@ -26,11 +26,11 @@ nombres=("John" "Jane" "Alice" "Bob" "Eve")  # acá entra la list con los 300 no
 for ((i=1; i<=cantidad_imagenes; i++))
 do
   # Nombre aleatorio de archivo
-  nombre_archivo="${nombres[$RANDOM % ${#nombres[@]}]}_$i.jpg"
+  nombre_archivo="${nombres[$RANDOM % ${#nombres[@]}]}_$i"
   
   # Descargar imagen desde https://thispersondoesnotexist.com/
-  wget -q -O "$directorio/$nombre_archivo" "https://thispersondoesnotexist.com/image"
-  
+  wget -q -O "$directorio/$nombre_archivo" "https://thispersondoesnotexist.com/"
+
   # Esperar 1 segundo entre descargas
   echo "Descargando imagen - $nombre_archivo " 
   sleep 1
@@ -38,13 +38,16 @@ done
 
 # Comprimir las imágenes
 tar -czf imagenes.tar.gz "$directorio"
+ 
 
 # Generar la suma de verificación (MD5) del archivo comprimido
-suma_verificacion=$(md5sum imagenes.tar.gz | awk '{print $1}')
+
+md5sum imagenes.tar.gz | awk '{print $1}' > verificacion.txt
+
 
 # Mostrar información
 echo "Imágenes generadas y comprimidas en imagenes.tar.gz"
-echo "Suma de verificación (MD5): $suma_verificacion"
+
 
 
 

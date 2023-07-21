@@ -6,8 +6,6 @@ RUN  apt-get install -y figlet && apt-get install -y git
 
 RUN git clone https://github.com/drivetuia23/tp-entorno.git
 
-# COPY generar.sh descomprimir.sh procesar.sh comprimir.sh verificaciones.sh titulo.sh  menu.sh /Workspace/
-
 WORKDIR /tp-entorno
 
 CMD ["bash", "/tp-entorno/menu.sh"]

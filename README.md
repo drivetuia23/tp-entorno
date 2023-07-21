@@ -27,6 +27,8 @@ El TP-Entorno TUIA23 está organizado, en relación a los users, de la siguiente
 1. Clonar este repositorio en tu sistema local.
 2. Asegurarse de tener instalado Bash en tu sistema.
 3. Ejecutar el script `menu.sh` en la terminal.
+4. Ejemplo https://github.com/Romanmarvin/trabajo_edp
+5. 
    
 ## Requisitos: (dependencias o bibliotecas)
 Para el correcto funcionamiento, el sistema requiere de los siguientes paquetes:

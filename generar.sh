@@ -17,10 +17,10 @@ fi
 
 # Crear directorio para las imágenes
 directorio="img"
-# mkdir -p "$directorio"
+mkdir -p "$directorio"
 
 # Nombres de archivo aleatorios
-nombres=("John" "Jane" "Mari" "Claudio" "javi" "soraya" "Natalia" "Alice" "Bob" "Eve" "Ana" "paula" "juan")  # acá entra la list con los 300 nombres
+nombres=("John" "Jane" "Mari" "Claudio" "javi" "soraya" "Natalia" "Alice" "Bob" "Eve" "Ana" "paula" "juan")
 
 # Descargar imágenes desde el servicio web
 for ((i=1; i<=cantidad_imagenes; i++))

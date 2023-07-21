@@ -70,8 +70,10 @@ while [ $salir -ne 1 ]; do
     5)
       clear
       ./titulo.sh "Ayuda" small 0
-      printf '%*s\n' "$(tput cols)" '' | tr ' ' -       
-      echo "Muestra información de ayuda"
+      printf '%*s\n' "$(tput cols)" '' | tr ' ' -   
+      # pandoc -s README.md | less    
+      
+      printf '%*s\n' "$(tput cols)" '' | tr ' ' -   
       read -p "Presione Enter para continuar hacia el menú..." nada
       ;;
 

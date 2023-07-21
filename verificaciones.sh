@@ -32,14 +32,15 @@ check_disk_space() {
 }
 
 # Preguntar al usuario si desea realizar las verificaciones
-read -p "¿Desea realizar las verificaciones? (S/n): " response
+read -p "¿Desea realizar las verificaciones? (s/n): " response
 if [[ $response == "S" || $response == "s" ]]; then
     # Verificar e instalar paquetes necesarios
     install_package_if_not_installed "figlet"
     install_package_if_not_installed "imagemagick"
     install_package_if_not_installed "tar"
     install_package_if_not_installed "coreutils" # Incluye el comando 'md5sum'
-
+    install_package_if_not_installed "pandoc"
+    
     # Verificar y crear directorios
     create_directory_if_not_exists "img"
     create_directory_if_not_exists "archivos_generados"
@@ -54,6 +55,8 @@ else
     install_package_if_not_installed "imagemagick"
     install_package_if_not_installed "tar"
     install_package_if_not_installed "coreutils" # Incluye el comando 'md5sum'
+    install_package_if_not_installed "pandoc"
+    
     create_directory_if_not_exists "img"
     create_directory_if_not_exists "archivos_generados"
     create_directory_if_not_exists "procesadas"

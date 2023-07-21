@@ -4,7 +4,7 @@ RUN apt-get update && apt-get upgrade && apt-get install -y imagemagick && apt-g
 
 RUN  apt-get install -y figlet
 
-RUN git clone git@github.com:drivetuia23/tp-entorno.git
+RUN git clone https://github.com/drivetuia23/tp-entorno.git
 
 # COPY generar.sh descomprimir.sh procesar.sh comprimir.sh verificaciones.sh titulo.sh  menu.sh /Workspace/
 

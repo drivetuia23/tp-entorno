@@ -4,7 +4,7 @@
 directorio_procesadas="procesadas"
 
 # Directorio donde se almacenarán los archivos generados
-directorio_salida="archivos_generados"
+directorio_salida="generados"
 
 # Crear directorio de salida si no existe
 mkdir -p "$directorio_salida"
@@ -26,3 +26,5 @@ echo "Creando archivo comprimido..."
 tar -czf archivos_generados.tar.gz "$directorio_salida" "$directorio_procesadas"
 
 echo "Proceso completado. Se han generado los archivos solicitados y el archivo comprimido 'archivos_generados.tar.gz' que incluye todo el contenido."
+sleep 4
+

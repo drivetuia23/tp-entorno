@@ -8,5 +8,5 @@ RUN git clone https://github.com/drivetuia23/tp-entorno.git
 
 WORKDIR /tp-entorno
 
-CMD ["bash", "/tp-entorno/menu.sh"]
+CMD /tp-entorno/menu.sh
 

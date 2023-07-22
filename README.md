@@ -28,8 +28,8 @@ Desarrollo - Testing
 1. Clonar este repositorio en tu sistema local.
 2. Asegurarse de tener instalado Bash en tu sistema.
 3. Ejecutar el script `menu.sh` en la terminal.
-4. Enlace de descarga: 
-5. 
+4. Enlace de descarga: https://github.com/drivetuia23/tp-entorno.git
+5. Token de acceso: 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
    
 ## Requisitos: (dependencias o bibliotecas)
 Para el correcto funcionamiento, el sistema requiere de los siguientes paquetes:

@@ -16,7 +16,7 @@ mkdir -p "$directorio"
 # Nombres de personas desde servicio web .csv
 
 csv_file=0
-directorio_destino="/tp-entorno"
+directorio_destino="$directorio"
 
 # Descargar el archivo CSV con los nombres desde la Web
 wget -O "$directorio_destino/$csv_file" "https://raw.githubusercontent.com/adalessandro/EdP-2023-TP-Final/main/dict.csv"

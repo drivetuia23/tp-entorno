@@ -2,7 +2,6 @@
 
 # Directorio donde se encuentran las imágenes
 directorio="img"
-mkdir -p "procesadas"
 
 # Función para comprobar si un nombre de archivo contiene un nombre de persona válido
 es_nombre_valido() {
@@ -17,6 +16,7 @@ es_nombre_valido() {
 
 if [ -d "$directorio" ]; then
 	# Procesar las imágenes válidas en el directorio
+	mkdir -p "procesadas"
 	echo "Procesando imágenes..."
 	for imagen in "$directorio"/*; do
 	  if es_nombre_valido "$imagen"; then

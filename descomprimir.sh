@@ -37,7 +37,7 @@ fi
 # Si no hay errores, proceder con la descompresión
 echo "Verificación exitosa. Comenzando la descompresión..."
 # Descomprime reescribiendo sobre el directorio img 
-tar -xvf "$archivo_comprimido" -C /img
+tar -xvf "$archivo_comprimido" -C img
 
 
 echo "Descompresión completada con éxito."

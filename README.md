@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/drivetuia23/tp-entorno/blob/main/FCEIA-logo.png" width="400"></a></p>
+ <p align="center"><img src="https://github.com/drivetuia23/tp-entorno/blob/main/FCEIA-logo.png" width="400"></a></p>
 
 # _Trabajo Práctico Entorno Programación Grupo 4 - TUIA 2023_
 
@@ -75,6 +75,15 @@ Al ser llamado desde el menú, recibe un número desde y realiza estas rutinas s
 El work directory agrega un direcotrio nuevo llamado **img** con los archivos de imagen generados, y un paquete **imagenes.tar.gz** con dicha carpeta y el archivo __verificacion.txt__
 
 ### 2.  descomprimir.sh
-### 3.  procesar.sh
-### 4.  comprimir.sh
+Al llegar a este punto el script ejecuta, antes que nada, una validación para saber si se generaron efectivamente los archivos de la suma de verificación de las imagenes y el archivo comprimido, luego encontramos una validación para saber si existen ambos archivos mencionados anteriormente. Antes de descomprimir las imagenes verifica si hubo error en la suma de verificación y si no lo hay procede a descomprimir las imagenes sobre el directorio **img**.
 
+### 3.  procesar.sh
+Al recibir las imagenes ya descomprimidas las procesa primero por nombre para que tengan solamente nombres válidos, es decir, que la primera letra sea __mayuscúla__, luego se crea un directório **procesadas** para guardar las imagenes que pasaron por una modificación en su tamaño utilizando la linea de "convert y resize" que esta en el enunciado de este trabajo práctico. Las imagenes con nombres no válidos son descartadas y en el directorio quedarán solamente las que fueron de hecho procesadas. 
+Luego de todo el proceso mostrará la información final y vuelve al menú.
+
+### 4.  comprimir.sh
+Antes de comprimir las imagenes procesadas anteriormente hay una validación para saber si el directorio img y procesadas existen, de ser asi procede a crear el directorio de salida que se llama  **generados* si no existe. Al tener todos los directorios generará tres listas .txt:
+- __lista_nombres_imagenes.txt__ con los nombres de las imagenes;
+- __lista_nombres_validos.txt__ con los nombres válidos procesados en el paso anterior y;
+- __total_nombres_con_a.txt__ con la cantidad de nombres que terminen con a, también modificamos el ´grep´ para que lea hasta la coma dentro del nombre del archivo (nombre, numero).
+Las tres listas con las imagenes son comprimidas en un archivo .tar.gz con el nombre **archivos_generados.tar.gz**, aparecerá la información con los archivos que fueron creados y volverá al menú. 
